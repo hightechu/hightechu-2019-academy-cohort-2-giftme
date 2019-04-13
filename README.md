@@ -2,7 +2,7 @@
 
 HighTechU Group Project
 
-## [REPLACE ME WITH YOUR GROUP PROJECT NAME]
+## Gift Me
 
 ### Mini Pitch :ghost:
 
@@ -14,10 +14,14 @@ HighTechU Group Project
 
 ### User Stories :snowboarder:
 
-[DELETE ME - ADD YOUR USER STORIES HERE]
+As an autheticated user, I want to suggest gifts I want to provide ideas or inspiration for the chat members.
+As an autheticated user, I want to be able to communicate with other users to discuss gift ideas.
+As an user, I want to be able to identify myself ao that people know who is getting what.
+As a chat creator, I want to be able to invite my friends or family so we can chat.
+As a autheticated user, I want to be able to navigate the site so I can switch between tasks.
+As a autheticated user, I want to be able to add to a list of gifts to keep track of ideas.
 
-* EXAMPLE - I want my users to be able to see a default page on my website.
-* EXAMPLE - I want my users to be able to login to my website.
+
 
 ### Website Pages :speedboat:
 
