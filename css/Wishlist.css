@@ -1,0 +1,30 @@
+
+.button{
+    padding: 24px 244px;
+    background-color: purple;
+    float : left;
+}
+.center{
+    width: 100%;
+    text-align: center;
+}
+
+.br{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.addgift{
+        display: block;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        
+      }
+
+.botaddgift{
+    position: absolute;
+    bottom: 10%;       
+    right: 10%;
+    }
