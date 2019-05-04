@@ -6,16 +6,54 @@
         <title>Gift ME</title>
         <link rel="stylesheet" href="css/styleryan.css">  
         <script src="chat.js"></script>
+        <link rel="stylesheet" href="css/navbar.css">  
     </head>
-    <body >
-        <div id="navbar">
-Nav bar (to be added)
-
-        </div>
-        <div id="topbar">
-Top nav bar (to be added)
-
-        </div>
+    <body>
+            <div class="header">
+                       
+                    <img src="img\giftlogo.png" alt="logo" height="10%" width="10%">
+                <!-- <a href="#default" class="logo">Gift <i class="fa fa-gift" aria-hidden="true"></i> Me</a>-->
+                    <div class="header-right">
+                      <a class="active" href="#home">Home</a>
+                      <a href="#contact">User's List</a>
+                      <a href="#about">My list</a>
+                    </div>
+                  </div>
+            <div class="vertical-menu">
+                    <a href="#" class="chatblock">Me</a>
+                    <a href="#">User 1</a>
+                    <a href="#">User 2</a>
+                    <a href="#">User 3</a>
+                    <a href="#">User 4</a>
+                    <a href="#">User 5</a>
+                    <a href="#">User 6</a>
+                    <a href="#">User 7</a>
+                    <a href="#">User 8</a>
+          
+                    <div class="settingsboxouter">
+                          <div class="settingsboxinner">
+                              <i class="fas fa-question"></i>
+                          </div>
+                          <div class="settingsboxinner">
+                              <i class="fas fa-user-cog"></i>
+                          </div>
+                      
+                          <div>
+                          <span style="float: left;">
+                              
+                              <button class="bottombutton">Invite</button>
+                          </span>
+          
+                          <span style="float: right;">
+                              <button class="bottombutton">Logout</button>
+                          </span>
+          
+                      </div>
+                  </div>  
+                      
+                  </div>
+                 
+                       
         <div id="chatarea" class="breaking"></div>
         <div id="chatbox">
             <form id="chat" onsubmit="updateChat(document.getElementById('textbox').value);return false">
