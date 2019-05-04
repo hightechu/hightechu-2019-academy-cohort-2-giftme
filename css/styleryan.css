@@ -6,6 +6,9 @@ html{
 body {
     height:100%;
   }
+textarea {
+    resize: none;
+  }
 #navbar {
     position:absolute;
     top:0;
