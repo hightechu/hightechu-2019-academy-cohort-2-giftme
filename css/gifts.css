@@ -49,19 +49,11 @@ body{
     padding-top: 20px;
 }
 
-.divider{
-    position: relative;
-    height: 2px;
-    width: 1465px;
-    overflow: hidden;
-    background-color: #eee;
-}
-
 #gift-image1{
-    width: 5cm; 
-    height: 5cm;
-    border: 5px solid #4CAF50;
-    border-radius: 10px;
+    width: 3cm; 
+    height: 3cm;
+    /*border: 5px solid #4CAF50;
+    border-radius: 10px;*/
 }
 
 #empty-horizontal{
@@ -89,7 +81,7 @@ body{
     position: absolute;
 }
 
-#right-two{
+#right{
     padding-left: 1000px;
     float: left;
     position: absolute;
