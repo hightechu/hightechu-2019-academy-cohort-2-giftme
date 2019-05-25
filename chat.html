@@ -14,7 +14,9 @@
                     <img src="img\giftlogo.png" alt="logo" height="10%" width="10%">
                 <!-- <a href="#default" class="logo">Gift <i class="fa fa-gift" aria-hidden="true"></i> Me</a>-->
                     <div class="header-right">
-                      <a class="active" href="#home">Home</a>
+                      <a href="#logout">Invite</a>
+                      <a href="#logout">Logout</a>
+                      <a href="#home">Home</a>
                       <a href="#contact">User's List</a>
                       <a href="#about">My list</a>
                     </div>
@@ -39,14 +41,7 @@
                           </div>
                       
                           <div>
-                          <span style="float: left;">
-                              
-                              <button class="bottombutton">Invite</button>
-                          </span>
-          
-                          <span style="float: right;">
-                              <button class="bottombutton">Logout</button>
-                          </span>
+                         
           
                       </div>
                   </div>  
@@ -57,7 +52,7 @@
         <div id="chatarea" class="breaking"></div>
         <div id="chatbox">
             <form id="chat" onsubmit="updateChat(document.getElementById('textbox').value);return false">
-                <textarea id="textbox"></textarea>
+                <textarea id="textbox" onkeypress="updateChat2(document.getElementById('textbox').value);"></textarea>
                 <input type="submit" id="submit" value="✔">
             </form>
         </div>
