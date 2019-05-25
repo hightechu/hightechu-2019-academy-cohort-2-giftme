@@ -1,0 +1,18 @@
+*NO BACKEND*
+
+-Text chat bottom up instead up up>down
+-Gifts page needs to be able to add gifts
+-Wishlist styling
+-Navbar functionality
+
+*BACKEND*
+
+-Text chat saves and loads
+-Gifts page receies data from wishlist
+-Navbar loads users
+
+*OVERALL*
+
+-Users
+-inviting
+-login
