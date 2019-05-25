@@ -23,14 +23,16 @@
 on how the website looks like with more boxes*/
 .storedgift{
     background-color: rgb(125, 125, 248);
-    position: absolute;
     top: 32%;       
     left: 3%;
+    display: block;
     /*min-height: 250px;*/
     min-width: 300px;
+    max-width: 500px;
     height:auto;
     border: black;
     padding: 20px;
+    margin: 20px;
     border-radius: 20px;
     font-family: "Arial", sans-serif;
 }
