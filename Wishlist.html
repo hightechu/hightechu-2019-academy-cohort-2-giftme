@@ -6,28 +6,35 @@
     </head>
     <body>
         <h1>
-            Gift Me!
+            Put upper bar here
         </h1>
-        <h1 class="center">
+        <h1 class="Title" class="center">
             My Gifts
         </h1>
-        <!--Buttons that sort the gifts on the site-->
+        
+        <!--Buttons that sort the gifts on the site
         <button class="button" type="menu" name="Alphabetical" id="sort">Alphabetical</button>
         <button class="button" type="menu" name="Cost" id="sort">Cost</button>
-        <button class="button" type="menu" name="Rating" id="sort">Rating</button>
+        <button class="button" type="menu" name="Rating" id="sort">Rating</button>-->
         
-        <!--add a gift-->
-        <button class="br" type="submit" name="add">Add Gift</button>
-       
+     
+        <!--Box that STORES added gifts. Need to create duplicates and store-->
+       <div class= "storedgift">
+        
+           <h2 id="namestoredgift">Name</h2>
+           <h4 id=descriptionstoredgift >Description</h4>
+           <h4>Cost</h4>
+       </div>
 
         <!--This is the box where you ADD a gift-->
-        <div class="botaddgift">
-            <form action="">
-                <input class="addgift" type="text" id="addgift" name="Giftname" placeholder="Gift name"> 
+        <div id="addgiftimage" class="botaddgift">
+            <input onclick='Show()' type="image" class="botaddgift" src="https://image.freepik.com/free-icon/plus-black-symbol_318-41820.png" name="plus" width="40" height="40" />
+            <form id="form">
+                <input class="addgift" type="text" id="addgiftname" name="Giftname" placeholder="Gift name"> 
                 <input class="addgift" type="text" id="addgift" name="Description" placeholder="Insert a Description Here">
-                <input class="addgift" type="number" min=00.00 step=0.01 id="LowerCost" name="LowerCost" placeholder="0.00">
-                <input class="addgift" onclick="checkLower()" type="number" min=LowerCost step=0.01 id="UpperCost" name="UpperCost" placeholder="0.00">
- 
+                <input class="addgift" type="number" min=00.00 step=0.01 id="LowerCost" name="LowerCost" placeholder="LowerCost">
+                <input class="addgift" onclick="checkLower()" type="number" min=LowerCost step=0.01 id="UpperCost" name="UpperCost" placeholder="UpperCost">
+                <button class="addgift" type="button" onclick="AddGift()" id="Submit" name="add" >Add Gift</button>
             </form>
         </div>
 
