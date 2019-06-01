@@ -116,3 +116,10 @@ body {
     cursor: pointer;
     border-radius: 8px;
 }
+
+.scroll {
+width:50%;
+height:100px;
+overflow:scroll;
+float: left;
+}
