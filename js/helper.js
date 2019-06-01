@@ -56,13 +56,14 @@ function loadDoc(url) {
  * @param {boolean} callapi Call an api endpoint
  */
 function APIajax(endpoint, method, fn, obj=null, parse=true, callapi=true) {
-  var location = "";
+  var location = endpoint;
+  /*
   if (callapi) {
     location = "{0}/api/{1}".format(document.location.origin, endpoint);
   }
   else {
     location = "{0}/{1}".format(document.location.origin, endpoint)
-  }
+  }*/
 
   var http_request = new XMLHttpRequest();
 
