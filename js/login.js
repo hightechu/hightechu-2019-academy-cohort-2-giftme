@@ -1,5 +1,4 @@
 function loginAJAX() {
-    alert("test");
     var location = "http://localhost:3000/api/Users";
     var http_request = new XMLHttpRequest();
 

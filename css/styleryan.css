@@ -21,6 +21,7 @@ textarea {
 .breaking{    
     width:calc(100% - 200px) !important;
     word-wrap: break-word;
+
 }
 #topbar{
     position:absolute;

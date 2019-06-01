@@ -4,10 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Gift ME</title>
-        <link rel="stylesheet" href="css/styleryan.css">  
-        <script src="chat.js"></script>
-        <script src="js/login.js"></script>
-        <script src="js/cookies.js"></script>
+        <link rel="stylesheet" href="css/styleryan.css">
         <link rel="stylesheet" href="css/navbar.css">  
     </head>
     <body>
@@ -53,11 +50,13 @@
                        
         <div id="chatarea" class="breaking"></div>
         <div id="chatbox">
-            <form id="chatform" onsubmit="loginAJAX(); updateChat(document.getElementById('message').value); return false;">
+            <form id="chatform" onsubmit="updateChat(document.getElementById('message').value); return false;">
                 <textarea id="message" onkeypress="updateChat2(document.getElementById('message').value);"></textarea>
                 <input type="submit" id="submit" value="✔">
             </form>
         </div>
 
+        <script src="js/helper.js"></script>
+        <script src="js/chat.js"></script>
     </body>
 </html>
