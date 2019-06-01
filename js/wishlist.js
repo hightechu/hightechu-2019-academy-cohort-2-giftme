@@ -59,7 +59,8 @@ function Gift_Format(gift){
   Gift_Box.appendChild(newName);
   Gift_Box.appendChild(newDesc);
   Gift_Box.appendChild(newCost);
-  document.getElementById('giftcontainer').appendChild(Gift_Box);}
+  document.getElementById('giftcontainer').insertBefore(Gift_Box, document.getElementById('giftcontainer').firstChild);}
+  
 
 
 
