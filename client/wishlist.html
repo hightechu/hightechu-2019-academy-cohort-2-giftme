@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <link rel="stylesheet" href="css/wishlist.css">
+
+        <!--
+        --> 
+
+    </head>
+    <body>
+        
+        <div class="header">
+                       
+            <img src="img\giftlogo.png" alt="logo" height="10%" width="10%">
+        <!-- <a href="#default" class="logo">Gift <i class="fa fa-gift" aria-hidden="true"></i> Me</a>-->
+            <div class="header-right">
+              <a href="#logout">Invite</a>
+              <a href="#logout">Logout</a>
+              <a href="chat.html">Chat</a>
+              <a href="gifts.html">Purchase List</a>
+              <a href="wishlist.html">Wishlist list</a>
+            </div>
+          </div>
+    <div class="vertical-menu">
+            <a href="#" class="chatblock">Me</a>
+            <a href="#">User 1</a>
+            <a href="#">User 2</a>
+            <a href="#">User 3</a>
+            <a href="#">User 4</a>
+            <a href="#">User 5</a>
+            <a href="#">User 6</a>
+            <a href="#">User 7</a>
+            <a href="#">User 8</a>
+    
+            <div class="settingsboxouter">
+                  <div class="settingsboxinner">
+                      <i class="fas fa-question"></i>
+                  </div>
+                  <div class="settingsboxinner">
+                      <i class="fas fa-user-cog"></i>
+                  </div>
+              
+                  <div>
+                 
+                    
+              </div>
+          </div>  
+              
+          </div>
+
+
+        <h1 class="Title" class="center">
+            My Gifts
+        </h1>
+        
+        <!--Buttons that sort the gifts on the site
+        <button class="button" type="menu" name="Alphabetical" id="sort">Alphabetical</button>
+        <button class="button" type="menu" name="Cost" id="sort">Cost</button>
+        <button class="button" type="menu" name="Rating" id="sort">Rating</button>-->
+        
+     
+        <!--Box that STORES added gifts. Need to create duplicates and store-->
+        <div id="giftcontainer">
+        </div>
+
+        <!--This is the box where you ADD a gift-->
+        <div id="addgiftimage" class="botaddgift">
+            <input onclick='Show()' type="image" class="botaddgift" src="https://image.freepik.com/free-icon/plus-black-symbol_318-41820.png" name="plus" width="40" height="40" />
+            <div id="form">
+                <input class="addgift" type="text" id="addgiftname" name="Giftname" placeholder="Gift name"> 
+                <input class="addgift" type="text" id="addDescription" name="Description" placeholder="Insert a Description Here">
+                <input class="addgift" type="number" min=00.00 step=0.01 id="LowerCost" name="LowerCost" placeholder="LowerCost">
+                <input class="addgift" onclick="checkLower()" type="number" min=LowerCost step=0.01 id="UpperCost" name="UpperCost" placeholder="UpperCost">
+                <button class="addgift" type="button" onclick="AddGift()" id="Submit" name="add" >Add Gift</button>
+            </div>
+        </div>
+    <script src="js/helper.js"></script>  
+    <script src="js/wishlist.js"></script>      
+    </body>
+</html>

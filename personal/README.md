@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-# Personal
-=======
-text
->>>>>>> master

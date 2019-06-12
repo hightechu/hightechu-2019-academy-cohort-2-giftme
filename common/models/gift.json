@@ -1,0 +1,30 @@
+{
+  "name": "gift",
+  "plural": "gifts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "lower_cost": {
+      "type": "number",
+      "default": 0
+    },
+    "upper_cost": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
