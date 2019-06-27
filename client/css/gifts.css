@@ -67,6 +67,9 @@ body{
 }
 
 #everything{
+    position: absolute;
+    right:10px;
+    top:10px;
     padding-left: 200px;
     padding-top: 100px
 }
