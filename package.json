@@ -19,7 +19,8 @@
     "loopback-component-explorer": "^6.2.0",
     "loopback-datasource-juggler": "^4.19.2",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^3.0.0"
+    "strong-error-handler": "^3.0.0",
+    "ajv": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
