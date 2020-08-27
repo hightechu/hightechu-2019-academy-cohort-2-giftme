@@ -4,7 +4,7 @@
 
 ## Website
 
-https://hightechu-giftme.herokuapp.com/chat.html
+[Live](https://hightechu-giftme.herokuapp.com/chat.html)
 
 ## Mini Pitch
 
